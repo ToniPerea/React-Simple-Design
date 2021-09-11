@@ -9,6 +9,9 @@ function App() {
     <NavbarComponent>
 
     </NavbarComponent>
+    <Login>
+      
+    </Login>
     </>
   );
 }
