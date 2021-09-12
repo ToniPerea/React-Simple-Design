@@ -1,11 +1,12 @@
 import FooterComponent from "../components/Footer";
 import NavbarComponent from "../components/Navbar";
+import Tabla from "../components/Tabla";
 
 const TablaEntreno = (props) =>{
     return (
       <>
         <NavbarComponent />
-        <h1>esta es la pagina de los entrenos</h1>
+        <Tabla/>
         <FooterComponent />
       </>
     );
