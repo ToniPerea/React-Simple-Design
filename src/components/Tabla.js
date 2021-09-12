@@ -1,3 +1,4 @@
+
 import { Table } from "react-bootstrap";
 import { Container, Col, Card, Row } from "react-bootstrap";
 import Ejercicio from "./Ejercicio";
@@ -28,6 +29,7 @@ const entrenamiento= [
 ]
 
 const Tabla = (props) => {
+    
 
     return (
       <>
@@ -41,7 +43,6 @@ const Tabla = (props) => {
                     <th>Ejercicio</th>
                     <th>Peso(KG)</th>
                     <th>Series x Repeticiones</th>
-                    <th>GIF</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -53,6 +54,7 @@ const Tabla = (props) => {
                             peso={elemento.peso}
                             repes={elemento.repes}
                             gif={elemento.gif}
+                            
                           ></Ejercicio>
                         );
                     })
