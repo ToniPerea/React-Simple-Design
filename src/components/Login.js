@@ -1,7 +1,15 @@
 import { Form,Button, Container,Row, Col, Card } from "react-bootstrap";
+import { useHistory } from "react-router";
 
 
 const Login = (props) => {
+
+  let history = useHistory();
+
+    function tabla(){
+      history.push("/tabla");
+    }
+
     return (
       <>
         <Container fluid className="mt-5 mb-5">
@@ -21,7 +29,7 @@ const Login = (props) => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
                   </Form.Group>
-                  <Button className="mb-3" variant="primary" type="submit">
+                  <Button className="mb-3" variant="primary" type="submit" onClick={tabla}>
                     Submit
                   </Button>
                 </Form>
