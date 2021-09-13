@@ -13,7 +13,7 @@ const NavbarComponent = (props) =>{
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
               />
-              Navbar
+              Training
             </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>

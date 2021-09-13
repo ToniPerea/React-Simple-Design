@@ -25,7 +25,14 @@ const entrenamiento= [
         'peso':'50',
         'repes':'3x14',
         'gif':'https://www.deportrainer.com/img/cms/Post%20de%20blog/press_banca_inclinado/movimiento-del-press-inclinado-hacia-abajo.gif'
-    }
+    },
+    {
+      'identificador':'4',
+      'nombre':'Press Banca con inclinacion de 45º grados',
+      'peso':'20',
+      'repes':'3x12',
+      'gif':'https://www.deportrainer.com/img/cms/Post%20de%20blog/press_banca_inclinado/como-hacer-el-ejercicio-press-inclinado-con-mancuernas-en-banco.gif'
+  }
 ]
 
 const Tabla = (props) => {
@@ -33,7 +40,7 @@ const Tabla = (props) => {
 
     return (
       <>
-        <Container fluid className="mt-5 mb-5">
+        <Container fluid className="mt-3 mb-5">
           <Row className="justify-content-center">
             <Col className="text-center" md={6}>
               <Table className="mt-5 mb-5" striped bordered hover>
@@ -54,7 +61,6 @@ const Tabla = (props) => {
                             peso={elemento.peso}
                             repes={elemento.repes}
                             gif={elemento.gif}
-                            
                           ></Ejercicio>
                         );
                     })

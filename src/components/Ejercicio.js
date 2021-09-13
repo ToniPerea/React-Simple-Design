@@ -11,7 +11,7 @@ const Ejercicio = (props) => {
       <>
         <tr onClick={desplegar}>
           <td>{props.id}</td>
-          <td>{props.nombre}</td>
+          <td style={{wordWrap: 'break-word',minWidth: '160px',maxWidth: '160px'}}>{props.nombre}</td>
           <td>{props.peso}</td>
           <td>{props.repes}</td>
         </tr>
