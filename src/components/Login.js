@@ -15,7 +15,7 @@ const Login = (props) => {
         <Container fluid className="mt-5 mb-5">
           <Row className="justify-content-center">
             <Col className="text-center" md={5}>
-              <Card className="px-3">
+              <Card className="px-3 shadow">
                 <Card.Title className="mt-3 fs-3 fw-bold">Inicie Sesión</Card.Title>
                 <Form>
                   <Form.Group className="mb-3 mt-3" controlId="formBasicEmail">
